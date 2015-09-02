@@ -426,3 +426,22 @@ th {
   padding: 0;
 }
 
+/*remove these lines later -- temporary design helpers */
+body {
+  background-color: LightGray;
+}
+
+div {
+  border: 1px solid Chocolate;
+}
+
+/* Navigation Section */
+.top-navigation {
+  background-color: #fff
+}
+
+.top-navigation > .content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+}
