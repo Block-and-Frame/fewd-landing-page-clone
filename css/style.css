@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -435,6 +442,10 @@ div {
   border: 1px solid Chocolate;
 }
 
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
 /* Navigation Section */
 .top-navigation {
   background-color: #fff
@@ -444,9 +455,36 @@ div {
   width: 970px;
   height: 70px;
   margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.top-navigation .links {
+  float:right;
+  margin-top: 1.7rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #838994;
+  letter-spacing: 0.03em;
 }
 
 .logo {
-  margin-left: 120px;
   height: 4.375rem;
+}
+
+.top-navigation .links li {
+  display: inline-block;
+  margin-left: 1.563rem;
+  transition: all 0.5s ease;
+}
+
+
+
+.top-navigation .links li:hover {
+  color: #333333;
+  cursor: pointer;
+}
+
+.top-navigation .links > .active {
+  color: #4c5058;
+  font-weight: 500;
 }
