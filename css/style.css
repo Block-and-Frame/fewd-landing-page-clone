@@ -488,3 +488,19 @@ html {
   color: #4c5058;
   font-weight: 500;
 }
+
+/* Large Background Image, Text, Button */
+
+.big-image {
+   padding: 10em 10em;
+  background-repeat: no-repeat;
+  
+  background-image: url('https://photos-6.dropbox.com/t/2/AABG6xpXTEr_uyfthDdWYLbUgk2rf0piAdNJJ-52ILM82g/12/357404183/jpeg/32x32/1/1441177200/0/2/first-background%20copy.jpg/CJectqoBIAEgAiADIAQgBSAGIAcoAg/KW8UftFosyCQF7X9rgCZFn7FVHUwtxuM6S4d-wOzxEc?size_mode=5');
+  background-size: 100% auto;
+}
+
+.middle-img {
+  width: 100%;
+  height: 50%;
+
+}
