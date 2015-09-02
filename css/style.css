@@ -545,26 +545,36 @@ body{
     border-color: #cf3d0e;
 }
 
-.icons h1{
+.icons {
   text-align: center;
+}
+
+.icons h1{
   font-weight: 300;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   margin-top: 3.8rem;
 }
 
 .icons ul{
- 
-  margin-left: 3rem;
-  margin-right: 3rem;
 
   list-style-type: none;
 }
 
 .icons li{
   display: inline-block;
+  padding: 2rem;
+  width: 33.333333%;
+  float: left;
 }
 
 .icons img {
   width: 127px;
+}
+
+.icons h3{
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin: 2.5rem 0px 1.875rem;
+  letter-spacing: 1px;
 }
 
