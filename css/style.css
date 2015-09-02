@@ -545,17 +545,62 @@ body{
     border-color: #cf3d0e;
 }
 
+.cases {
+  outline: 1px solid red;
+}
+
+.cases h2{
+  font-weight: 300;
+  font-size: 2.8rem;
+  margin-top: 3.8rem;
+  text-align: center;
+  color: black;
+}
+
+
+.cases .content{
+  outline: 1px dashed blue;
+  text-align: center;
+}
+
+.cases .devices {
+  width: 33%;
+  
+  border: 1px solid black;
+  height: 4em;
+  margin: 0em;
+
+      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex; 
+  
+  
+  box-sizing: border-box;
+  display: inline-block;
+ 
+}
+
+.cases h3{
+  color: black;
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin: 2.5rem 0px 1.875rem;
+  letter-spacing: 1px;
+  outline: 1px dashed red ;
+}
+
+
+
+/*-----------------------------------*/
+
 .icons {
   text-align: center;
 }
 
-.icons h1{
-  font-weight: 300;
-  font-size: 2.8rem;
-  margin-top: 3.8rem;
-}
-
 .icons ul{
+  outline: 1px solid red;
 
   list-style-type: none;
 }
@@ -567,9 +612,6 @@ body{
   float: left;
 }
 
-.icons img {
-  width: 127px;
-}
 
 .icons h3{
   font-weight: 400;
