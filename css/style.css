@@ -433,7 +433,7 @@ th {
   padding: 0;
 }
 
-/*remove these lines later -- temporary design helpers */
+/*remove these 2 lines later -- temporary design helpers */
 body {
   background-color: LightGray;
 }
@@ -444,6 +444,10 @@ div {
 
 html {
     -webkit-font-smoothing: antialiased;
+
+}
+body{
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Navigation Section */
@@ -451,17 +455,20 @@ html {
   background-color: #fff
 }
 
+.content {
+    padding: 0px 15px;
+    margin: 0 auto;
+    width: 970px;
+    color: #fff;
+}
+
 .top-navigation > .content {
-  width: 970px;
   height: 70px;
-  margin: 0 auto;
-  padding: 0px 15px;
 }
 
 .top-navigation .links {
   float:right;
   margin-top: 1.7rem;
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #838994;
   letter-spacing: 0.03em;
@@ -491,16 +498,25 @@ html {
 
 /* Large Background Image, Text, Button */
 
-.big-image {
-   padding: 10em 10em;
-  background-repeat: no-repeat;
+.introduction {
+  background-image: url('../images/karma.jpg');
+  background-position: 0 bottom;
+  background-size: cover;
+  height: 42rem;
+  overflow: auto;
   
-  background-image: url('https://photos-6.dropbox.com/t/2/AABG6xpXTEr_uyfthDdWYLbUgk2rf0piAdNJJ-52ILM82g/12/357404183/jpeg/32x32/1/1441177200/0/2/first-background%20copy.jpg/CJectqoBIAEgAiADIAQgBSAGIAcoAg/KW8UftFosyCQF7X9rgCZFn7FVHUwtxuM6S4d-wOzxEc?size_mode=5');
-  background-size: 100% auto;
 }
 
-.middle-img {
-  width: 100%;
-  height: 50%;
+.introduction h1, .introduction h3 {
+  font-weight:300;
+  text-align: center;
+}
 
+.introduction h1{
+  font-size: 3.125rem;
+  margin-top: 14rem;
+}
+
+.introduction h3{
+  font-size: 1.563rem;
 }
