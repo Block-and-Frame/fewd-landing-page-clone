@@ -544,3 +544,27 @@ body{
    background-color: #d9400e;
     border-color: #cf3d0e;
 }
+
+.icons h1{
+  text-align: center;
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin-top: 3.8rem;
+}
+
+.icons ul{
+ 
+  margin-left: 3rem;
+  margin-right: 3rem;
+
+  list-style-type: none;
+}
+
+.icons li{
+  display: inline-block;
+}
+
+.icons img {
+  width: 127px;
+}
+
