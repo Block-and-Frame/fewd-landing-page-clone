@@ -434,13 +434,13 @@ th {
 }
 
 /*remove these 2 lines later -- temporary design helpers */
-body {
+/*body {
   background-color: LightGray;
 }
 
 div {
   border: 1px solid Chocolate;
-}
+} */
 
 html {
     -webkit-font-smoothing: antialiased;
@@ -548,8 +548,12 @@ body{
     border-color: #cf3d0e;
 }
 
-.cases {
+/*.cases {
   outline: 1px solid red;
+}*/
+
+.cases {
+  padding-bottom: 5rem;
 }
 
 .cases h2{
@@ -562,14 +566,14 @@ body{
 
 
 .cases .content{
-  outline: 1px dashed blue;
+  /* outline: 1px dashed blue;*/
   text-align: center;
 }
 
 .cases .devices {
   width: 33%;
   
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   height: 4em;
   margin: 0em;
 
@@ -591,74 +595,76 @@ body{
   font-size: 1.563rem;
   margin: 2.5rem 0px 1.875rem;
   letter-spacing: 1px;
-  outline: 1px dashed red ;
+  /* outline: 1px dashed red ;*/
 }
 
-.social-ul {
-  
-}
-.social-ul li, .social li {
+/*.social li {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1rem;
   padding: 0;
-    width: 4.5rem;
-    
+  width: 4.5rem;
 
-}
-.social-ul div {
-  display: inline-block;
-  border: 2px solid gray;
-  border-radius: 1.25rem;
-  
-}
+}*/
 
-footer{
-  border-top: 1px solid LightGray;
+.social{
   text-align: center;
-  
+}
+
+.social li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 0.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
 }
 
 h5{
   font-weight: 400;
   font-size: 1rem;
   color: black;
-  margin-left: 3rem;
+  
+  vertical-align: baseline;
+  
 }
 
-i{
-  border: 1px solid black;
-  border-radius: 50%;
-  color: black;
-  font-size: 2rem;
-  padding: 1rem;
 
-}
+
 i:hover{
   cursor: pointer;
 }
-/*-----------------------------------*/
 
-.icons {
-  text-align: center;
+hr{
+  border: 0;
+  border-top: 1px solid #eaebec;
+  margin: 1.313rem 0;
+}
+
+span{
+  opacity: 0.7;
+}
+
+
+.fa-twitter{
+  color: #55acee;
+}
+
+.fa-facebook{
+  color: #4c66a4;
+}
+
+.fa-instagram {
+  color: #3f729b;
 }
 
 ul{
   list-style-type: none;
-  
 }
 
-.icons li{
-  display: inline-block;
-  padding: 2rem;
-  width: 33.333333%;
-  float: left;
+.social span {
+     font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
 }
-
-
-.icons h3{
-  font-weight: 400;
-  font-size: 1.563rem;
-  margin: 2.5rem 0px 1.875rem;
-  letter-spacing: 1px;
-}
-
