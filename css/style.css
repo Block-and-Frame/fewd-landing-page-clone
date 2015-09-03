@@ -594,18 +594,57 @@ body{
   outline: 1px dashed red ;
 }
 
+.social-ul {
+  
+}
+.social-ul li, .social li {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 0;
+    width: 4.5rem;
+    
 
+}
+.social-ul div {
+  display: inline-block;
+  border: 2px solid gray;
+  border-radius: 1.25rem;
+  
+}
 
+footer{
+  border-top: 1px solid LightGray;
+  text-align: center;
+  
+}
+
+h5{
+  font-weight: 400;
+  font-size: 1rem;
+  color: black;
+  margin-left: 3rem;
+}
+
+i{
+  border: 1px solid black;
+  border-radius: 50%;
+  color: black;
+  font-size: 2rem;
+  padding: 1rem;
+
+}
+i:hover{
+  cursor: pointer;
+}
 /*-----------------------------------*/
 
 .icons {
   text-align: center;
 }
 
-.icons ul{
-  outline: 1px solid red;
-
+ul{
   list-style-type: none;
+  
 }
 
 .icons li{
