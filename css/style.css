@@ -458,12 +458,22 @@ body{
   z-index: 9999;
 }
 
+/*.introduction h1 {
+    font-size: 3.125rem;
+    margin-top: 14rem;
+    margin-bottom: 1rem;
+}*/
+
 .content {
     padding: 0px 15px;
     margin: 0 auto;
     width: 970px;
     color: #fff;
 }
+
+/*button {
+  color: #fff !important;
+}*/
 
 .top-navigation > .content {
   height: 70px;
@@ -502,11 +512,11 @@ body{
 /* Large Background Image, Text, Button */
 
 .introduction {
-  background-image: url('../images/karma.jpg');
+  background-image: url('https://images.unsplash.com/photo-1455734729978-db1ae4f687fc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=cca8a94bda503431f29a080b24a4ba02');
   background-position: 0 bottom;
   background-size: cover;
   height: 42rem;
-  overflow: auto;
+  overflow: hidden;
   text-align: center;
   
 }
@@ -517,7 +527,7 @@ body{
 
 .introduction h1{
   font-size: 3.125rem;
-  margin-top: 14rem;
+  margin-top: 22rem;
   margin-bottom: 1rem
 }
 
